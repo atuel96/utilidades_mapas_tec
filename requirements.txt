@@ -1,0 +1,8 @@
+numpy
+pyproj
+tqdm
+verde
+pandas
+pyarrow
+Cartopy
+matplotlib
