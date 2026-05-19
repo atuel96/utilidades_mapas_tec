@@ -54,7 +54,15 @@ date = pd.to_datetime("2024-05-10 01:00:00") # fecha
 target = "vTEC"
 cmap = "jet"
 
-ax = plot_map(date, dataset_path=dataset_path, maxdist=2)
+ax = plot_map(
+    date, 
+    target=target, 
+    region=region,
+    cmap=cmap,
+    spacing=spacing,
+    cmap=cpamdataset_path=dataset_folder, 
+    maxdist=2 # maxima distancia sin datos
+)
 
 # puedo modificar el plot:
 # ax.title("nuevo titulo")
